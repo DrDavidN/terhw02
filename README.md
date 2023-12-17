@@ -69,7 +69,12 @@
 ### Задание 4
 
 1. Объявите в файле outputs.tf **один** output типа **map**, содержащий { instance_name = external_ip } для каждой из ВМ.
+
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/de8a4a82-dafd-407f-aadc-9c855552b401)
+
 2. Примените изменения.
+
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/a052b31d-2bdf-4c16-b9fe-66749a50020c)
 
 
 ### Задание 5
