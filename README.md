@@ -37,14 +37,33 @@
 1. Изучите файлы проекта.
 2. Замените все хардкод-**значения** для ресурсов **yandex_compute_image** и **yandex_compute_instance** на **отдельные** переменные. К названиям переменных ВМ добавьте в начало префикс **vm_web_** .  Пример: **vm_web_name**.
 2. Объявите нужные переменные в файле variables.tf, обязательно указывайте тип переменной. Заполните их **default** прежними значениями из main.tf. 
+
+Ответ:
+
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/e982b01a-2343-4312-8829-d2f29a62d6a0)
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/ff925102-4568-4933-b5b5-972551c0bf15)
+
+
 3. Проверьте terraform plan. Изменений быть не должно. 
+
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/4e607e66-b3a8-45f0-9078-56d1afed1d3c)
 
 
 ### Задание 3
 
 1. Создайте в корне проекта файл 'vms_platform.tf' . Перенесите в него все переменные первой ВМ.
+
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/1cdb81c3-75b5-4a14-bc69-4396ca54c072)
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/1b54b956-0c4e-430f-933f-3bad11f3520b)
+
+
 2. Скопируйте блок ресурса и создайте с его помощью вторую ВМ в файле main.tf: **"netology-develop-platform-db"** ,  ```cores  = 2, memory = 2, core_fraction = 20```. Объявите её переменные с префиксом **vm_db_** в том же файле ('vms_platform.tf').
+
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/95f3a2cb-a242-4fb9-a3e4-1b683cb29c40)
+
 3. Примените изменения.
+
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/c1e3ed5e-a34f-4c1d-b7be-f9bf2f2a21b2)
 
 
 ### Задание 4
