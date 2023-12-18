@@ -116,13 +116,13 @@
 
    
 3. Создайте и используйте отдельную map переменную для блока metadata, она должна быть общая для всех ваших ВМ.
-   ```
+```
    пример из terraform.tfvars:
    metadata = {
      serial-port-enable = 1
      ssh-keys           = "ubuntu:ssh-ed25519 AAAAC..."
    }
-  ```
+``` 
 
 ![image](https://github.com/DrDavidN/terhw02/assets/128225763/fa0b6988-173a-4b85-9a97-f8455103c891)
 
