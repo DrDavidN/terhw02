@@ -123,14 +123,17 @@
      ssh-keys           = "ubuntu:ssh-ed25519 AAAAC..."
    }
   ```
+
 ![image](https://github.com/DrDavidN/terhw02/assets/128225763/fa0b6988-173a-4b85-9a97-f8455103c891)
 
 ![image](https://github.com/DrDavidN/terhw02/assets/128225763/4599b7c5-67e5-44a6-b841-c04355f5f532)
  
 5. Найдите и закоментируйте все, более не используемые переменные проекта.
+
 ![image](https://github.com/DrDavidN/terhw02/assets/128225763/0c4778b0-142e-45e3-8acc-d6359167d1cd)
 
 ![image](https://github.com/DrDavidN/terhw02/assets/128225763/ed04919a-4a97-4d3f-8578-98d3db4157f0)
 
 6. Проверьте terraform plan. Изменений быть не должно.
+
 ![image](https://github.com/DrDavidN/terhw02/assets/128225763/a0a94c30-b300-4b61-8267-6e4d54f9d033)
