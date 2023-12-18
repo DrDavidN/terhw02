@@ -41,6 +41,7 @@
 Ответ:
 
 ![image](https://github.com/DrDavidN/terhw02/assets/128225763/e982b01a-2343-4312-8829-d2f29a62d6a0)
+
 ![image](https://github.com/DrDavidN/terhw02/assets/128225763/ff925102-4568-4933-b5b5-972551c0bf15)
 
 
@@ -54,6 +55,7 @@
 1. Создайте в корне проекта файл 'vms_platform.tf' . Перенесите в него все переменные первой ВМ.
 
 ![image](https://github.com/DrDavidN/terhw02/assets/128225763/1cdb81c3-75b5-4a14-bc69-4396ca54c072)
+
 ![image](https://github.com/DrDavidN/terhw02/assets/128225763/1b54b956-0c4e-430f-933f-3bad11f3520b)
 
 
@@ -80,8 +82,13 @@
 ### Задание 5
 
 1. В файле locals.tf опишите в **одном** local-блоке имя каждой ВМ, используйте интерполяцию ${..} с несколькими переменными по примеру из лекции.
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/d414f50b-dc50-41e3-9b29-044b2d3d6100)
+
 2. Замените переменные с именами ВМ из файла variables.tf на созданные вами local-переменные.
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/6b61df1c-fff5-4734-957e-f78813fa2dd9)
+
 3. Примените изменения.
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/5652c846-1cde-4e91-adfb-533e2d64ed3a)
 
 
 ### Задание 6
@@ -103,6 +110,11 @@
        ...
      }
    ```
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/e1b30ecd-2db0-4053-bd89-fe260b6847d6)
+
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/a7ffc20c-bffa-42b5-886d-24f6dbfd59ab)
+
+   
 3. Создайте и используйте отдельную map переменную для блока metadata, она должна быть общая для всех ваших ВМ.
    ```
    пример из terraform.tfvars:
@@ -110,7 +122,15 @@
      serial-port-enable = 1
      ssh-keys           = "ubuntu:ssh-ed25519 AAAAC..."
    }
-   ```  
-  
+  ```
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/fa0b6988-173a-4b85-9a97-f8455103c891)
+
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/4599b7c5-67e5-44a6-b841-c04355f5f532)
+ 
 5. Найдите и закоментируйте все, более не используемые переменные проекта.
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/0c4778b0-142e-45e3-8acc-d6359167d1cd)
+
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/ed04919a-4a97-4d3f-8578-98d3db4157f0)
+
 6. Проверьте terraform plan. Изменений быть не должно.
+![image](https://github.com/DrDavidN/terhw02/assets/128225763/a0a94c30-b300-4b61-8267-6e4d54f9d033)
